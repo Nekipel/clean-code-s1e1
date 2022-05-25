@@ -23,7 +23,7 @@
         text-align: center;
     }
 }
-.center-elem{
+.center-elem {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -33,14 +33,14 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-wrapp{
+.task-wrapp {
     display: flex;
 }
 .list {
     margin: 0;
     padding: 0px;
 }
-.list-item{
+.list-item {
     list-style: none;
 }
 .title {
@@ -53,10 +53,12 @@
     margin: 0;
     text-transform: uppercase;
 }
-.task{
+.task {
     outline: none;
 }
-.button,.edit,.delete{
+.button,
+.edit,
+.delete {
     outline: none;
     background: none;
     border: 0px;
@@ -129,31 +131,44 @@ li > label {
 li >    input[type="text"] {
     width: 226px;
 }
-button.delete img {
+button
+.delete 
+img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button
+.delete 
+img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks 
+label {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul 
+li 
+input[type=text] {
     display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul 
+li
+.edit-mode 
+input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.edit-mode label {
+ul 
+li
+.edit-mode 
+label {
     display: none;
 }

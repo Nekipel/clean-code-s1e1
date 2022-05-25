@@ -37,14 +37,14 @@
     display: flex;
 }
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .list-item{
-    list-style:none;
+    list-style: none;
 }
 .title {
-    list-style:none;
+    list-style: none;
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -54,10 +54,10 @@
     text-transform: uppercase;
 }
 .task{
-    outline:none;
+    outline: none;
 }
 .button,.edit,.delete{
-    outline:none;
+    outline: none;
     background: none;
     border: 0px;
     color: #888;
@@ -140,20 +140,20 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 ul li input[type=text] {
-    display:none
+    display: none
 }
 
 ul li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 ul li.edit-mode label {
-    display:none;
+    display: none;
 }
